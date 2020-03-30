@@ -1,0 +1,61 @@
+Contexto
+Por muitos anos, os aviões foram considerados o segundo meio de transporte mais seguro do mundo - perdendo apenas para elevadores. Viajando grandes distâncias em pouco tempo, essas aeronaves trouxeram várias vantagens para o mundo, tanto na aplicação comercial quanto na regular. Infelizmente, como qualquer meio de transporte, as aeronaves têm sua própria contagem de tragédias. O último evento envolvendo aviões - nesta base de dados - foi o acidente envolvendo o time de futebol brasileiro Chapecoense e uma aeronave da LAMIA, que os transportava para a Colômbia para um campeonato. Essa tragédia trouxe de volta discussões e controvérsias sobre a segurança da aeronave e a capacidade humana durante ocorrências aeronáuticas.
+
+Conteúdo
+Esses arquivos contêm informações sobre ocorrências que envolveram aeronaves nos últimos 10 anos até o acidente da Chapecoense. 
+
+Arquivo
+aircrafts.csv
+
+Sobre este arquivo
+Aeronave envolvida no arquivo de ocorrências
+
+23 colunas
+airplane_id - número de identificação da Aicraft
+instance_id - número de identificação da ocorrência
+matrícula - número de matrícula da aeronave
+operator_id - número de identificação do operador
+equipment - tipo de aeronave
+manufacturer - fabricante de aeronaves
+model - modelo de aeronave
+engine_type - Tipo de mecanismo
+engines_amount - Quantidade de motores
+takeoff_max_weight (Lbs) - Peso máximo para a decolagem
+seatings_amount - Quantidade de assentos disponíveis
+year_manufacture - Ano de fabricação da aeronave
+registration_country - País onde a aeronave foi registrada
+registration_category - categoria de registro da aeronave no momento da ocorrência
+registration_aviation - categoria de aviação da aeronave no momento da ocorrência
+origin_flight - De onde veio a aeronave?
+destination_flight - Para onde a aeronave iria?
+operation_phase - Fase de operação no momento da ocorrência
+type_operation - Tipo de operação no momento da ocorrência
+damage_level - Nível de dano na aeronave
+fatalities_amount - Quantidade de fatalidades (mortes) ocorridas
+extract_day - Dia da extração da aeronave
+
+Arquivo
+occurences.csv
+
+Sobre este arquivo
+Ocorrências aeronáuticas dos últimos 10 anos
+
+Colunas
+instance_id - número de identificação da ocorrência
+classification - Classificação de ocorrência
+type of occurrence - tipo de ocorrência
+localization - Cidade onde a ocorrência aconteceu
+fu - Estado onde a ocorrência aconteceu
+country - país onde a ocorrência aconteceu
+aerodrome - código ICOA do aeródromo
+instance_day - Data da ocorrência
+time - Hora da ocorrência (UTC)
+under_investigation - A ocorrência será investigada?
+investigating_command - Comando de investigação responsável pela investigação da ocorrência
+inquiry_status - Status da investigação
+report_number - número de identificação do relatório final
+shared_report - O relatório foi publicado?
+publicação_dia - Dia de publicação do relatório
+recommend_amount - quantidade de recomendação de segurança emitida
+aircrafts_involved - Quantidade de aeronaves envolvidas na decolagem da ocorrência
+extract_day - dia da extração da aeronave
